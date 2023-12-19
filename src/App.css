@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('C:\Users\utsav\my-registration-app\src\images\yog3.jpg'); /* Replace with the path to your image */
+  background-size: contain; /* Adjust the size as needed */
+  background-position: left; /* Align the background image to the left */
+  background-repeat: no-repeat; /* Prevent image from being repeated */
+  background-attachment: fixed;
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  width: 400px;
+  margin: 0 50px;
+}
+
+.register {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  margin: 40px;
+}
+
+label {
+  font-size: 18px;
+  font-style: italic;
+}
+
+input,
+select {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline: 0;
+  padding: 7px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.select#Batch {
+  width: 100%;
+}
+.gender {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.gender label {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.gender input[type="radio"] {
+  margin-right: 5px;
+}
+
+.gender span {
+  font-size: 16px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 7px;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 3px;
+  background-color: rgba(250, 100, 0, 0.8);
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
