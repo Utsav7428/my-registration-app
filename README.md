@@ -1,5 +1,6 @@
 
 # Yoga Classes Registration Form
+![Alt text](https://github.com/Utsav7428/my-registration-app/blob/main/Screenshot%20(88).png?raw=true)
 
 Welcome to the Yoga Classes Registration Form project! This web application allows users to enroll in monthly yoga classes. Participants can provide their details, choose a batch, and submit the registration form.
 
